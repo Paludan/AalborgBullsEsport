@@ -1,0 +1,50 @@
+body {
+	background-image: url('Images/Backgroundimage/wallpaper.jpg');
+}
+
+@font-face {
+    font-family: "Old";
+    src: url('fonts/Old_R.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Florsn17";
+    src: url('fonts/Florsn17.ttf') format('opentype');
+}
+
+#title {
+	font-family: Old;
+	color: darkgrey;	
+	margin: auto;
+	margin-top: 20em;
+	margin-left: 10em;
+	text-align: left;
+}
+
+#menu li:hover {
+	color:  white;
+}
+
+#menu {
+	color: darkgray;
+	list-style-type: none;
+	margin-left: 7em;
+}
+
+#menu li {
+	margin-bottom: 1em;
+}
+
+#toplineMenu {
+	border-color: darkgrey;
+	width: 10.8em;
+	margin-left: 8em;
+}
+
+#bottomlineMenu {
+	border-color: darkgrey;
+	width: 10.8em;
+	margin-left: 8em;
+}
+
+
