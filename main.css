@@ -21,10 +21,6 @@ body {
 	text-align: left;
 }
 
-#menu li:hover {
-	color:  white;
-}
-
 #menu {
 	color: darkgray;
 	list-style-type: none;
@@ -32,7 +28,16 @@ body {
 }
 
 #menu li {
-	margin-bottom: 1em;
+	margin-bottom: 1em;	
+}
+
+#menu li a {
+	text-decoration: none;
+	color: darkgray;
+}
+
+#menu li a:hover {
+	color:  white;
 }
 
 #toplineMenu {
@@ -47,4 +52,30 @@ body {
 	margin-left: 8em;
 }
 
+#Introduction {
+	float: right;
+	position: fixed;
+	top: 15em;
+	margin-left: 40em;
+	color: darkgrey;
+}
+
+#Introduction hr {
+	border-color: darkgrey;
+	width: 50em;
+	margin-right: 20em;
+}
+
+#Introduction p {
+	width: 50em;
+	word-wrap: break-word;
+}
+
+#IntroductionTitle {
+	float: right;
+	position: fixed;
+	top: 8em;
+	margin-left: 27em;
+	color: darkgrey;
+}
 
